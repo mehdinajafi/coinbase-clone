@@ -1,0 +1,14 @@
+.companyDropDownLink .companyDropDownMenue {
+  display: none;
+}
+
+/* When hover on company link show menue */
+.companyDropDownLink:hover .companyDropDownMenue {
+  display: flex;
+  flex-direction: column;
+}
+
+.companyDropDownMenue:focus {
+  display: flex;
+  flex-direction: column;
+}

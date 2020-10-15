@@ -5,7 +5,7 @@ const Navbar = () => {
   // This state to determine the display of the navbar on small devices
   const [navbarOpen, setNavbarOpen] = useState(false)
   return (
-    <nav className="sticky top-0 flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-primary">
+    <nav className="sticky top-0 z-10 flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-primary">
       <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
         <div className="w-full relative flex justify-between md:w-auto md:static md:block md:justify-start">
           <a

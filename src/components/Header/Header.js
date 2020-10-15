@@ -1,11 +1,8 @@
 import React from 'react'
-import Navbar from './Navbar/Navabr'
 
 const Header = () => {
   return (
     <header>
-      <Navbar />
-
       <div className="w-full bg-primary">
         <div className="container text-center px-8 py-16">
           <span className="text-2xl md:text-5xl text-white font-bold">

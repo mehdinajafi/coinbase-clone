@@ -4,6 +4,7 @@ import Earning from './components/Earning/Earning'
 import Prices from './components/Prices/Prices'
 import Navbar from './components/Navbar/Navabr'
 import Portfolio from './components/Portfolio/Portfolio'
+import Introduction from './components/Introduction/Introduction'
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
       <Prices />
       <Earning />
       <Portfolio />
+      <hr></hr>
+      <Introduction />
     </React.Fragment>
   )
 }

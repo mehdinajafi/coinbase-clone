@@ -10,6 +10,9 @@ module.exports = {
       colors: {
         primary: 'rgb(22, 82, 240)',
       },
+      zIndex: {
+        '-1': '-1',
+      },
       inset: {
         0: 0,
         auto: 'auto',

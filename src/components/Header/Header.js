@@ -6,7 +6,7 @@ const Header = () => {
     <header>
       <Navbar />
 
-      <div className="w-screen bg-primary">
+      <div className="w-full bg-primary">
         <div className="container text-center px-8 py-16">
           <span className="text-2xl md:text-5xl text-white font-bold">
             Buy and sell cryptocurrency

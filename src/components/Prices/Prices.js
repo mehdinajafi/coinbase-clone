@@ -31,7 +31,7 @@ const Prices = () => {
 
   return (
     <section className="relative">
-      <div className="w-screen h-40 absolute top-0 -z-1 bg-primary"></div>
+      <div className="w-full h-40 absolute top-0 -z-1 bg-primary"></div>
       <div className="container">
         <table className="mx-auto w-full text-sm bg-gray-100 border border-gray-300">
           <thead className="hidden md:table-header-group">

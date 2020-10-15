@@ -5,11 +5,11 @@ import Prices from './components/Prices/Prices'
 
 function App() {
   return (
-    <div className="w-screen">
+    <React.Fragment>
       <Header />
       <Prices />
       <Earning />
-    </div>
+    </React.Fragment>
   )
 }
 

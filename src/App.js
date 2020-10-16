@@ -5,6 +5,7 @@ import Prices from './components/Prices/Prices'
 import Navbar from './components/Navbar/Navabr'
 import Portfolio from './components/Portfolio/Portfolio'
 import Introduction from './components/Introduction/Introduction'
+import Counter from './components/Counter/Counter'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Portfolio />
       <hr></hr>
       <Introduction />
+      <Counter />
     </React.Fragment>
   )
 }

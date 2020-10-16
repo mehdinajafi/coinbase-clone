@@ -6,6 +6,7 @@ import Navbar from './components/Navbar/Navabr'
 import Portfolio from './components/Portfolio/Portfolio'
 import Introduction from './components/Introduction/Introduction'
 import Counter from './components/Counter/Counter'
+import Steps from './components/Steps/Steps'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <hr></hr>
       <Introduction />
       <Counter />
+      <Steps />
     </React.Fragment>
   )
 }

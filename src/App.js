@@ -7,6 +7,7 @@ import Portfolio from './components/Portfolio/Portfolio'
 import Introduction from './components/Introduction/Introduction'
 import Counter from './components/Counter/Counter'
 import Steps from './components/Steps/Steps'
+import EarningFooter from './components/Earning-Footer/EarningFooter'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Introduction />
       <Counter />
       <Steps />
+      <EarningFooter />
     </React.Fragment>
   )
 }

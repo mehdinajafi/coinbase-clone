@@ -9,6 +9,9 @@ module.exports = {
     extend: {
       colors: {
         primary: 'rgb(22, 82, 240)',
+        darkBlue: {
+          900: '#113355',
+        },
       },
       zIndex: {
         '-1': '-1',
